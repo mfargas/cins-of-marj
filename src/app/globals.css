@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Simple font overrides */
+* {
+  font-family: "Input Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Mono", monospace !important;
+  font-weight: 700 !important;
+}
+
+.font-mono {
+  font-family: "Roboto Mono", monospace !important;
+}
+
+.font-sans {
+  font-family: "Input Sans", sans-serif !important;
+}
